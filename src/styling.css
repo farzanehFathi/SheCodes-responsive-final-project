@@ -144,12 +144,17 @@ img {
     padding: 80px 20px;
   }
 
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
   .sub-page-hero {
     padding: 0;
     text-align: center;
   }
-  .project-description {
-    padding: 0;
-    text-align: center;
+
+  .sub-page-hero h1 {
+    font-size: 40px;
   }
 }

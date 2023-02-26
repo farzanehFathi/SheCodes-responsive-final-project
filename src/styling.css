@@ -45,6 +45,9 @@ p {
   line-height: 30px;
 }
 
+img {
+  border-radius: 10px;
+}
 .hero {
   text-align: center;
   padding: 160px 20px;

@@ -81,7 +81,6 @@ p {
 
 .btn-branding:hover {
   background-color: var(--branding-color);
-  color: black;
 }
 
 .btn-branding-outline {

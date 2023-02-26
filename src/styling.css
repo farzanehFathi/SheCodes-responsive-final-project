@@ -103,19 +103,19 @@ p {
 
 /*  =====------ About Page ------===== */
 
-.about-hero {
+.sub-page-hero {
   padding: 160px 20px;
 }
-.about-hero h1 {
+.sub-page-hero h1 {
   font-size: 64px;
 }
 
-.about-hero h2 {
+.sub-page-hero h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
-.about-contnet {
+.sub-page-titles {
   margin: 30px;
 }
 
@@ -133,7 +133,7 @@ p {
     padding: 80px 20px;
   }
 
-  .about-hero {
+  .sub-page-hero {
     padding: 0;
     text-align: center;
   }

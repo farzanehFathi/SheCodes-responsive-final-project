@@ -101,7 +101,7 @@ p {
   color: #6c757d !important;
 }
 
-/*  =====------ About Page ------===== */
+/*  =====------ Sub Pages ------===== */
 
 .sub-page-hero {
   padding: 160px 20px;
@@ -117,6 +117,14 @@ p {
 
 .sub-page-titles {
   margin: 30px;
+}
+
+.sub-page-content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+}
+.sub-page-content p {
+  font-size: 14px;
 }
 
 /*  =====------ Media ------===== */

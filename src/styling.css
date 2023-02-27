@@ -60,7 +60,7 @@ a {
 }
 
 nav {
-  padding: 20px;
+  padding: 20px 0;
 }
 
 nav li {
@@ -79,7 +79,7 @@ nav a:hover,
 }
 
 .logo-img {
-  max-width: 150px;
+  max-height: 40px;
 }
 
 .hero {
@@ -168,7 +168,7 @@ nav a:hover,
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 1.5;
+    line-height: 1.2;
   }
 
   h2 {

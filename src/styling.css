@@ -5,6 +5,7 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
+/*  =====------ Main Elements ------===== */
 body {
   font-family: var(--default-font-family);
   font-weight: 500;
@@ -59,6 +60,8 @@ a {
   text-decoration: none;
 }
 
+/*  =====------ Nab Bar ------===== */
+
 nav {
   padding: 20px 0;
 }
@@ -82,6 +85,7 @@ nav a:hover,
   max-height: 40px;
 }
 
+/*  =====------ Home Page Hero ------===== */
 .hero {
   text-align: center;
   padding: 160px 20px;
@@ -100,6 +104,8 @@ nav a:hover,
   line-height: 1.5;
   font-size: 24px;
 }
+
+/*  =====------ Buttons ------===== */
 
 .btn-branding,
 .btn-branding-outline {
@@ -130,12 +136,47 @@ nav a:hover,
   border: 1px solid var(--branding-color);
 }
 
+/*  =====------ Home Page Content ------===== */
+
 .project-description {
   padding: 120px 60px;
 }
 
 .text-muted {
   color: #6c757d !important;
+}
+
+/*  =====------ Footer ------===== */
+footer {
+  margin: 50px 0;
+}
+footer a {
+  color: black;
+  font-size: 24px;
+  transition: all 100ms ease-in-out;
+}
+
+footer a:hover {
+  color: var(--branding-color);
+}
+
+.social-links a {
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-size: 18px;
+  margin: 0 20px;
+  transition: all 100ms ease-in-out;
+}
+
+.social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
 }
 
 /*  =====------ Sub Pages ------===== */

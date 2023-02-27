@@ -41,6 +41,15 @@ h2 {
   font-size: 64px;
 }
 
+h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+}
+
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-size: 16px;
   line-height: 30px;
@@ -185,10 +194,6 @@ footer a:hover {
   border-radius: 10px;
 }
 
-.work-inquiry h4 {
-  font-size: 48px;
-}
-
 /*  =====------ Sub Pages ------===== */
 
 .sub-page-hero {
@@ -207,10 +212,6 @@ footer a:hover {
   margin: 30px;
 }
 
-.sub-page-content h3 {
-  font-size: 24px;
-  font-family: var(--default-font-family);
-}
 .sub-page-content p {
   font-size: 14px;
 }

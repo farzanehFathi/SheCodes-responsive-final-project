@@ -61,6 +61,7 @@ p {
 
 img {
   border-radius: 10px;
+  object-fit: contain;
 }
 
 ul {
@@ -231,7 +232,7 @@ footer a:hover {
 }
 
 /*  =====------ Media ------===== */
-@media (max-width: 900px) {
+@media (max-width: 1050px) {
   h1 {
     font-size: 44px;
     line-height: 1.2;
@@ -256,5 +257,11 @@ footer a:hover {
 
   .sub-page-hero h1 {
     font-size: 40px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .project-description {
+    padding: 0;
   }
 }

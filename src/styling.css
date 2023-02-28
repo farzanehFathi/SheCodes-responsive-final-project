@@ -2,23 +2,16 @@
   --branding-color: #836852;
   --secondary-color: #efecea;
   --default-text-color: #4e3a2c;
-  --highlith-text-color: #bc8f6c;
+  --highlight-text-color: #bc8f6c;
   --mute-text-color: #b19e8d;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
 
-/* --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
---default-text-color: #black;
-  --highlith-text-color: #272142;
-  --mute-text-color: #6c757d;
-  
-  */
-
 /*  =====------ Main Elements ------===== */
 body {
   font-family: var(--default-font-family);
+  color: var(--default-text-color);
   font-weight: 500;
   margin: 0;
   padding: 0;
@@ -78,6 +71,12 @@ ul {
 
 a {
   text-decoration: none;
+  color: var(--highlight-text-color);
+  transition: all 100ms ease-in-out;
+}
+
+a:hover {
+  color: var(--default-text-color);
 }
 
 /*  =====------ Nab Bar ------===== */
@@ -93,12 +92,12 @@ nav li {
 }
 
 nav a {
-  color: var(--highlith-text-color);
+  color: var(--default-text-color);
   transition: all 100ms ease-in-out;
 }
 nav a:hover,
 .active {
-  color: var(--branding-color);
+  color: var(--highlight-text-color);
 }
 
 .logo-img {
@@ -116,7 +115,7 @@ nav a:hover,
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: var(--highlith-text-color);
+  color: var(--highlight-text-color);
 }
 
 .hero h2 {
@@ -177,7 +176,7 @@ footer a {
 }
 
 footer a:hover {
-  color: var(--branding-color);
+  color: var(--highlight-text-color);
 }
 
 .social-links a {
